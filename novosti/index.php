@@ -1,9 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Новости");
-?>
-
-<section class="press-center" data-controller="view-more">
+?><section class="press-center" data-controller="view-more">
   <header class="press-center__header">
     <h1 class="light">Новости</h1>
   </header>
@@ -11,27 +9,28 @@ $APPLICATION->SetTitle("Новости");
 
     <article class="news-important" style="background-image: url(<?=ASSET_PATH?>stub/1.jpg)">
       <a href="/article.html" class="news-important__link">
+  <a href="/novosti/detail.php" class="news__link">
         <h2 class="news-important__title">
-          Стартовал прием заявок на&nbsp;I&nbsp;конкурс президентских
-          грантов 2020&nbsp;года! Желающие уже с&nbsp;1 марта
-          2020&nbsp;года получить грант Президента
+          Стартовал прием заявок на I конкурс президентских
+          грантов 2020 года! Желающие уже с 1 марта
+          2020 года получить грант Президента
         </h2>
       </a>
       <time class="news-important__publication-date" datetime="2019-10-15">15 октября 2019</time>
     </article>
     <article class="news news--wide">
       <div class="news__publication-info">
-        <a href="/article.html" class="news__link">
+         <a href="/novosti/detail.php" class="news__link">
           <h3 class="news__title content-block">
             <mark>
-              Общественная палата&nbsp;РФ будет продвигать методические
-              указания по&nbsp;госзакупкам услуг в&nbsp;сфере отлова
-              и&nbsp;содержания животных без владельцев.
+              Общественная палата РФ будет продвигать методические
+              указания по госзакупкам услуг в сфере отлова
+              и содержания животных без владельцев.
             </mark>
             <span>
-              &nbsp;15&nbsp;ноября поговорили о&nbsp;проблемах
-              правоприменения закона &laquo;Об&nbsp;ответственном обращении
-              с&nbsp;животными&raquo;
+               15 ноября поговорили о проблемах
+              правоприменения закона «Об ответственном обращении
+              с животными»
             </span>
           </h3>
         </a>
@@ -41,17 +40,17 @@ $APPLICATION->SetTitle("Новости");
     </article>
     <article class="news news--wide">
       <div class="news__publication-info">
-        <a href="/article.html" class="news__link">
+        <a href="/novosti/detail.php" class="news__link">
           <h3 class="news__title content-block">
             <mark>
-              #ЩедрыйВторник пройдет 3&nbsp;декабря.
+              #ЩедрыйВторник пройдет 3 декабря.
             </mark>
             <span>
-              В&nbsp;100&nbsp;странах, включая Россию, в&nbsp;четвертый раз
+              В 100 странах, включая Россию, в четвертый раз
               пройдет Международный день благотворительности
               #ЩедрыйВторник. Миллионы людей объединяются для проведения
               благотворительных мероприятий, вдохновляют других
-              на&nbsp;добрые дела.
+              на добрые дела.
             </span>
           </h3>
         </a>
@@ -64,8 +63,8 @@ $APPLICATION->SetTitle("Новости");
         <a href="/article.html" class="news__link content-block">
           <h3 class="news__title">
             Заседание рабочей группы Общественной палаты Ямала
-            по&nbsp;формированию системы гуманного обращения
-            с&nbsp;животными
+            по формированию системы гуманного обращения
+            с животными
           </h3>
         </a>
         <time class="news__publication-date" datetime="2019-09-27">27 сентября 2019</time>
@@ -77,12 +76,12 @@ $APPLICATION->SetTitle("Новости");
         <a href="/article.html" class="news__link content-block">
           <h3 class="news__title content-block">
             <mark>
-              На&nbsp;Ямале реализуется общественно-образовательный проект
-              &laquo;Ямальские молодёжные инициативы&raquo;.
+              На Ямале реализуется общественно-образовательный проект
+              «Ямальские молодёжные инициативы».
             </mark>
             <span>
-              Его участники могут получить гранты в&nbsp;размере 200, 150
-              и&nbsp;100&nbsp;тыс. рублей на&nbsp;реализацию своего
+              Его участники могут получить гранты в размере 200, 150
+              и 100 тыс. рублей на реализацию своего
               социально-ориентированного проекта
             </span>
           </h3>
@@ -96,10 +95,10 @@ $APPLICATION->SetTitle("Новости");
         <a href="/article.html" class="news__link content-block">
           <h3 class="news__title content-block">
             <mark>
-              Форум добровольцев Ямала соберет более 300&nbsp;участников.
+              Форум добровольцев Ямала соберет более 300 участников.
             </mark>
             <span>
-              В&nbsp;Новом Уренгое 13&nbsp;и&nbsp;14&nbsp;декабря пройдет
+              В Новом Уренгое 13 и 14 декабря пройдет
               форум добровольцев Ямала. Это долгожданное событие для
               волонтерского движения автономного округа
             </span>
